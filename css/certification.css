@@ -1,0 +1,136 @@
+body{
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  
+  
+}
+/*navbar*/
+.logo{
+  float: left;
+}
+.nav {
+  overflow: hidden;
+  background-color:whitesmoke;
+  
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-left: 5%;
+  color: rgb(0, 0, 0);
+  
+  border-bottom: 1px solid rgb(103, 10, 149)
+}
+.nav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 200px;
+}
+.nav a:hover {
+  background-color: white;
+  color: black;
+}
+.nav a.active {
+  background-color:rgb(103, 10, 149) ;
+  color: white;
+}
+
+.container{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.certif {
+    margin: 60px;
+    border-radius: 5%;
+    width: 600px;
+    height: 450px;
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        100% 100%,
+        0% 100%,
+        0% 75%,
+        0% 75%
+  );
+
+    animation: clipOut 4s ;
+  }
+  @keyframes clipOut {
+    from {
+      clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%);
+    }
+  }
+
+  .fleshh{
+    text-align: end;
+    float: right;
+    font-size: 40px;
+    position: fixed;
+    color: #38388d;
+    cursor: pointer;
+  }
+.fleshh:hover{
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+  .flesh{
+    margin-right: 10px;
+    float: right;
+    width: 40px;
+  }
+  .footer {
+    
+    bottom:0;
+    width: 100%;
+    background: rgb(103, 10, 149);
+    height: 50px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+  }

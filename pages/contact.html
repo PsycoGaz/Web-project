@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="./contact.js" type="text/javascript"></script>
+    <link rel='stylesheet' href='../css/contact.css'>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('r_Xj_3dRODoq2VfUA');
+        })();
+    </script>
+
+</head>
+
+<body>
+    <div class="nav">
+        <a href="../index.html">Home</a>
+        <a href="../pages/about.html">About</a>
+        <a href="../pages/project.html">Projects & Training</a>
+        <a  href="../pages/certification.html">Certifications</a>
+        <a class="active" href="contact.html">Contact</a>
+        <a href="../quiz.html">Quiz</a>
+
+    </div>
+  
+    <div class="contact">
+        <div class="left">
+            <h1>Contact here</h1>
+            <a href="" class="cn"><i class="bi bi-telephone" style="margin-right: 10px;color: green;"></i>+216 99 994 946</a>
+            <a href="" class="cn"><i class="bi bi-envelope "
+                    style="margin-right: 10px;color:#521656"></i>akramhentati0@gmail.com</a>
+            <a href='https://www.linkedin.com/in/omar-masmoudi/' class='linkedin cn'><i class="bi bi-linkedin"
+                    style="margin-right: 10px; color:blue;"></i>https://www.linkedin.com/in/hentati--akram/</a>
+            
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+                    <script src="app.js"></script>
+                    
+        </div>
+
+        <div class="right">
+            <p class='desc'>
+                <b>Let's discuss !</b> redirect to my Linkedin profile or cantact me with mobile phone or
+                you can send me an Email.
+            </p>
+            <div class="formulaire">
+               
+                <input type="text" id="subject" placeholder="Subject" required />
+
+               
+                <input id="name" placeholder="Enter your name" required />
+
+                
+                <input id="email" placeholder="Enter your Email" required />
+
+                <div class="remarque">This Message is <b>optional</b>, Or you can add your message and i will recieve it with honor !</div>
+                <textarea id="message" placeholder="Add message"></textarea>
+
+                <button class="btn btn-primary" onclick="SendMail()">Send</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        
+        <div class="footer-left">
+          
+  
+          <p class="footer-links">
+            
+            <a href="../index.html">Home</a>
+            |
+            <a href="./about.html">About</a>
+            |
+            <a href="../pages/project.html">Projects & Training</a>
+            |
+            <a href="../pages/certification.html">Certifications</a>
+            |
+            <a href="../pages/contact.html">Contact</a>
+            |
+            <a href="../quiz.html">Quiz</a>
+          </p>
+  
+        
+       
+        <p>&copy;2023 Akram HENTATI | All Rights Reserved</p>
+      </footer>
+</body>
+
+</html>
